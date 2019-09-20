@@ -21,6 +21,9 @@
     <ClCompile Include="lc_twoSum.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_addTwoNums.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
