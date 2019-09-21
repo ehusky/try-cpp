@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lc_addTwoNums.cpp" />
+    <ClCompile Include="lc_reverse.cpp" />
     <ClCompile Include="lc_twoSum.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

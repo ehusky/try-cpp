@@ -1,24 +1,14 @@
 #include "leetcode.h"
 
 int main() {
-	ListNode* InputLn1 = new ListNode(2);
-	ListNode node0(4);
-	ListNode node1(3);
-	ListNode node2(6);
-	ListNode node3(4);
-	ListNode node4(9);
-	ListNode node5(9);
-	node1.next = &node5;
-	node0.next = &node1;
-	InputLn1->next = &node0;
-	ListNode* InputLn2 = new ListNode(5);
-	node4.next = &node5;
-	node3.next = &node4;
-	node2.next = &node3;
-	InputLn2->next = &node2;
+	int InputIt = 321;
+	int OutputIt;
 	Solution *solu;
 	solu = new Solution();
-	ListNode* OutputLn3;
-	OutputLn3 = solu->addTwoNumbers(InputLn1, InputLn2);
+	OutputIt = solu->reverse(InputIt);
+	cout << solu->reverse(-1534236469) << endl;
+	cout << solu->reverse(-123) << endl;
+	cout << solu->reverse(120) << endl;
+	cout << solu->reverse(-pow(2, 31)) << endl;
 	return 0;
 }
