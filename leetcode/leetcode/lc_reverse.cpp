@@ -12,7 +12,7 @@ int Solution::reverse(int x) {
 	bool is_negative = (x < 0);
 	x = abs(x);
 	int base;
-	for (; x != 0; x = ceil(x / 10))
+	for (; x != 0; x = int(ceil(x / 10)))
 	{
 		base = x % 10;
 		if (res > INT32_MAX / 10)

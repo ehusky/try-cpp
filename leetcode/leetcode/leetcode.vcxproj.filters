@@ -18,14 +18,29 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="lc_twoSum.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="lc_addTwoNums.cpp">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="lc_reverse.cpp">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_twoSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_defangIPaddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_numJewelsInStones.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_rangeSumBST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_isOneBitCharacter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_toLowerCase.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

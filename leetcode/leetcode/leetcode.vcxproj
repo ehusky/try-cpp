@@ -124,9 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lc_addTwoNums.cpp" />
+    <ClCompile Include="lc_defangIPaddr.cpp" />
+    <ClCompile Include="lc_isOneBitCharacter.cpp" />
+    <ClCompile Include="lc_rangeSumBST.cpp" />
     <ClCompile Include="lc_reverse.cpp" />
     <ClCompile Include="lc_twoSum.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="lc_numJewelsInStones.cpp" />
+    <ClCompile Include="lc_toLowerCase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h" />
