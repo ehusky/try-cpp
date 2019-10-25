@@ -3,8 +3,10 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <set>
 #include <string>
 #include <algorithm>
+#include <map>  
 
 using namespace std;
 
@@ -36,5 +38,6 @@ public:
 	int rangeSumBST(TreeNode* root, int L, int R);
 	string toLowerCase(string str);
 	bool isOneBitCharacter(vector<int>& bits);
+	int uniqueMorseRepresentations(vector<string>& words);
 private:
 };
