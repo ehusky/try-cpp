@@ -123,16 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lc_balancedStringSplit.cpp" />
     <ClCompile Include="lc_addTwoNums.cpp" />
     <ClCompile Include="lc_defangIPaddr.cpp" />
+    <ClCompile Include="lc_flipAndInvertImage.cpp" />
     <ClCompile Include="lc_isOneBitCharacter.cpp" />
     <ClCompile Include="lc_rangeSumBST.cpp" />
     <ClCompile Include="lc_reverse.cpp" />
+    <ClCompile Include="lc_sortArrayByParity.cpp" />
     <ClCompile Include="lc_twoSum.cpp" />
     <ClCompile Include="lc_uniMorRep.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="lc_numJewelsInStones.cpp" />
     <ClCompile Include="lc_toLowerCase.cpp" />
+    <ClCompile Include="lc_removeOuterParentheses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h" />

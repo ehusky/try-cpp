@@ -45,6 +45,18 @@
     <ClCompile Include="lc_uniMorRep.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_flipAndInvertImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_balancedStringSplit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_removeOuterParentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_sortArrayByParity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

@@ -39,5 +39,9 @@ public:
 	string toLowerCase(string str);
 	bool isOneBitCharacter(vector<int>& bits);
 	int uniqueMorseRepresentations(vector<string>& words);
+	int balancedStringSplit(string s);
+	string removeOuterParentheses(string S);
+	vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A);
+	vector<int> sortArrayByParity(vector<int>& A);
 private:
 };

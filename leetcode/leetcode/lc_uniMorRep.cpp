@@ -2,8 +2,8 @@
 
 int Solution::uniqueMorseRepresentations(vector<string>& words) {
 	map<char, string> MORSE;
-	string as[] = { "Beijing", "Shanghai", "Chengdu" };
 	set<string> uniMORSE;
+	int uniNum;
 	MORSE['a'] = string(".-");
 	MORSE['b'] = "-...";
 	MORSE['c'] = "-.-.";
@@ -30,4 +30,17 @@ int Solution::uniqueMorseRepresentations(vector<string>& words) {
 	MORSE['x'] = "-..-";
 	MORSE['y'] = "-.--";
 	MORSE['z'] = "--..";
+	
+	for (vector<string>::iterator iter = words.begin(); iter != words.end(); iter++)
+	{
+		string word = *iter;
+		string morse = "";
+		for (size_t i = 0; i != word.length(); i++)
+		{
+			morse += MORSE.find(word[i])->second;
+		}
+		uniMORSE.insert(morse);
+	}
+	uniNum = uniMORSE.size();
+	return uniNum;
 }

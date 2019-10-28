@@ -1,15 +1,10 @@
 #include "leetcode.h"
 
 int main() {
-	vector<int> InputIt;
-	InputIt.push_back(1);
-	InputIt.push_back(1);
-	InputIt.push_back(1);
-	InputIt.push_back(0);
-	bool OutputBo;
+	vector<int> A = {3,1,2,4};
 	Solution *solu;
 	solu = new Solution();
-	OutputBo = solu->isOneBitCharacter(InputIt);
-	cout << OutputBo << endl;
+	vector<int> OutputBo = solu->sortArrayByParity(A);
+	//cout << OutputBo << endl;
 	return 0;
 }
