@@ -57,6 +57,12 @@
     <ClCompile Include="lc_sortArrayByParity.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_decompressRLElist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_numOfSteps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

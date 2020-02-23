@@ -43,5 +43,7 @@ public:
 	string removeOuterParentheses(string S);
 	vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A);
 	vector<int> sortArrayByParity(vector<int>& A);
+	int numOfSteps(int num);
+	vector<int> decompressRLElist(vector<int>& nums);
 private:
 };

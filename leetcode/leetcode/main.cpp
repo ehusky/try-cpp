@@ -1,10 +1,11 @@
 #include "leetcode.h"
 
 int main() {
-	vector<int> A = {3,1,2,4};
+	vector<int> A = {1, 2, 3, 4};
 	Solution *solu;
 	solu = new Solution();
-	vector<int> OutputBo = solu->sortArrayByParity(A);
+	vector<int> OutputBo;
+	OutputBo = solu->decompressRLElist(A);
 	//cout << OutputBo << endl;
 	return 0;
 }
