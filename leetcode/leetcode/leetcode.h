@@ -45,5 +45,7 @@ public:
 	vector<int> sortArrayByParity(vector<int>& A);
 	int numOfSteps(int num);
 	vector<int> decompressRLElist(vector<int>& nums);
+	vector<int> runningSum(vector<int>& nums);
+	string arrangeWords(string text);
 private:
 };

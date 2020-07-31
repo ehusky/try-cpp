@@ -5,7 +5,7 @@ int main() {
 	Solution *solu;
 	solu = new Solution();
 	vector<int> OutputBo;
-	OutputBo = solu->decompressRLElist(A);
+	OutputBo = solu->runningSum(A);
 	//cout << OutputBo << endl;
 	return 0;
 }
