@@ -69,6 +69,60 @@
     <ClCompile Include="lc_runningSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_shuffle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_kidsWithCandies.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_numIdenticalPairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_restoreString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_xorOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_subtractProductAndSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_smallerNumbersThanCurrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_findNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_getDecimalValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_minTimeToVisitAllPoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_countGoodTriplets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_oddCells.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_busyStudent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_maxProduct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_maximum69Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_checkPossibility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_buddyStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_convertToTitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

@@ -1,6 +1,6 @@
 #include "leetcode.h"
 
-bool Solution::isOneBitCharacter(vector<int>& bits) {
+bool Solution::isOneBitCharacter(std::vector<int>& bits) {
 	bool isOneBit = 0;
 	for (size_t i = 0; i < bits.size(); i++)
 	{

@@ -123,6 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lc_buddyStrings.cpp" />
+    <ClCompile Include="lc_busyStudent.cpp" />
+    <ClCompile Include="lc_checkPossibility.cpp" />
+    <ClCompile Include="lc_convertToTitle.cpp" />
+    <ClCompile Include="lc_countGoodTriplets.cpp" />
+    <ClCompile Include="lc_findNumbers.cpp" />
+    <ClCompile Include="lc_getDecimalValue.cpp" />
+    <ClCompile Include="lc_kidsWithCandies.cpp" />
     <ClCompile Include="lc_arrangeWords.cpp" />
     <ClCompile Include="lc_balancedStringSplit.cpp" />
     <ClCompile Include="lc_addTwoNums.cpp" />
@@ -130,17 +138,27 @@
     <ClCompile Include="lc_defangIPaddr.cpp" />
     <ClCompile Include="lc_flipAndInvertImage.cpp" />
     <ClCompile Include="lc_isOneBitCharacter.cpp" />
+    <ClCompile Include="lc_maximum69Number.cpp" />
+    <ClCompile Include="lc_maxProduct.cpp" />
+    <ClCompile Include="lc_minTimeToVisitAllPoints.cpp" />
+    <ClCompile Include="lc_numIdenticalPairs.cpp" />
     <ClCompile Include="lc_numOfSteps.cpp" />
     <ClCompile Include="lc_rangeSumBST.cpp" />
+    <ClCompile Include="lc_restoreString.cpp" />
     <ClCompile Include="lc_reverse.cpp" />
+    <ClCompile Include="lc_shuffle.cpp" />
+    <ClCompile Include="lc_smallerNumbersThanCurrent.cpp" />
     <ClCompile Include="lc_sortArrayByParity.cpp" />
+    <ClCompile Include="lc_subtractProductAndSum.cpp" />
     <ClCompile Include="lc_twoSum.cpp" />
     <ClCompile Include="lc_uniMorRep.cpp" />
+    <ClCompile Include="lc_xorOperation.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="lc_numJewelsInStones.cpp" />
     <ClCompile Include="lc_toLowerCase.cpp" />
     <ClCompile Include="lc_removeOuterParentheses.cpp" />
     <ClCompile Include="lc_runningSum.cpp" />
+    <ClCompile Include="lc_oddCells.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h" />

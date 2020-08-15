@@ -1,11 +1,14 @@
 #include "leetcode.h"
 
 int main() {
-	vector<int> A = {1, 2, 3, 4};
+	std::vector<int> A = { -1, 4};
+	int n = 234;
 	Solution *solu;
 	solu = new Solution();
-	vector<int> OutputBo;
-	OutputBo = solu->runningSum(A);
+	std::vector<int> OutputBo;
+	bool reVal;
+	std::string re_str;
+	re_str = solu->convertToTitle(1);
 	//cout << OutputBo << endl;
 	return 0;
 }

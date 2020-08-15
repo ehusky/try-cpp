@@ -1,6 +1,6 @@
 #include "leetcode.h"
 
-int Solution::numJewelsInStones(string J, string S) {
+int Solution::numJewelsInStones(std::string J, std::string S) {
 	int res = 0;
 	char jew;
 	for (int i = 0; i < J.length(); i++)

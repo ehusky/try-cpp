@@ -42,14 +42,11 @@ ListNode* Solution::addTwoNumbers(ListNode* l1, ListNode* l2) {
 				l2 = l2->next;
 			}
 		}
-
-
 	}
 	if (carry != 0)
 	{
 		ListNode* node = new ListNode(carry); 
 		res_tail->next = node;
 	}
-	
 	return res_head->next;
 }

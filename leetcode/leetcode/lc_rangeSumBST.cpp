@@ -1,7 +1,7 @@
 #include "leetcode.h"
 
 int Solution::rangeSumBST(TreeNode* root, int L, int R) {
-	deque<TreeNode*> nodes;
+	std::deque<TreeNode*> nodes;
 	TreeNode* node;
 	int node_val;
 	int res = 0;

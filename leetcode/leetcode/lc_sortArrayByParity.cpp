@@ -1,9 +1,9 @@
 #include"leetcode.h"
 
-vector<int> Solution::sortArrayByParity(vector<int>& A) {
-	deque<int> retQue;
-	vector<int> retVec;
-	for (vector<int>::iterator iter = A.begin(); iter != A.end(); iter++)
+std::vector<int> Solution::sortArrayByParity(std::vector<int>& A) {
+	std::deque<int> retQue;
+	std::vector<int> retVec;
+	for (std::vector<int>::iterator iter = A.begin(); iter != A.end(); iter++)
 	{
 		if (*iter % 2 == 0)
 		{
@@ -14,7 +14,7 @@ vector<int> Solution::sortArrayByParity(vector<int>& A) {
 			retQue.push_back(*iter);
 		}
 	}
-	for (deque<int>::iterator iter = retQue.begin(); iter != retQue.end(); iter++)
+	for (std::deque<int>::iterator iter = retQue.begin(); iter != retQue.end(); iter++)
 	{
 		retVec.push_back(*iter);
 	}

@@ -1,10 +1,10 @@
 # include "leetcode.h"
 
-int Solution::uniqueMorseRepresentations(vector<string>& words) {
-	map<char, string> MORSE;
-	set<string> uniMORSE;
+int Solution::uniqueMorseRepresentations(std::vector<std::string>& words) {
+	std::map<char, std::string> MORSE;
+	std::set<std::string> uniMORSE;
 	int uniNum;
-	MORSE['a'] = string(".-");
+	MORSE['a'] = std::string(".-");
 	MORSE['b'] = "-...";
 	MORSE['c'] = "-.-.";
 	MORSE['d'] = "-..";
@@ -31,10 +31,10 @@ int Solution::uniqueMorseRepresentations(vector<string>& words) {
 	MORSE['y'] = "-.--";
 	MORSE['z'] = "--..";
 	
-	for (vector<string>::iterator iter = words.begin(); iter != words.end(); iter++)
+	for (std::vector<std::string>::iterator iter = words.begin(); iter != words.end(); iter++)
 	{
-		string word = *iter;
-		string morse = "";
+		std::string word = *iter;
+		std::string morse = "";
 		for (size_t i = 0; i != word.length(); i++)
 		{
 			morse += MORSE.find(word[i])->second;

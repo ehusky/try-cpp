@@ -1,10 +1,10 @@
 #include"leetcode.h"
 
-vector<int> Solution::runningSum(vector<int>& nums)
+std::vector<int> Solution::runningSum(std::vector<int>& nums)
 {
-	vector<int> reVal;
+	std::vector<int> reVal;
 	reVal.push_back(nums[0]);
-	vector<int>::iterator iter = nums.begin();
+	std::vector<int>::iterator iter = nums.begin();
 	iter++;
 	for (; iter != nums.end(); iter++)
 	{

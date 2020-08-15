@@ -1,8 +1,8 @@
 #include "leetcode.h"
 
-string Solution::defangIPaddr(string address) {
+std::string Solution::defangIPaddr(std::string address) {
 	int addr;
-	stack<int> addrs;
+	std::stack<int> addrs;
 	addr = address.find('.');
 	addrs.push(addr);
 	addr = address.find('.', addr + 1);

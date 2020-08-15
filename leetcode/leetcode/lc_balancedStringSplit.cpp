@@ -1,6 +1,6 @@
 #include"leetcode.h"
 
-int Solution::balancedStringSplit(string s) {
+int Solution::balancedStringSplit(std::string s) {
 	int numBalancedStr = 0;
 	int flag = 0;
 	for (size_t i = 0; i < s.size(); i++)

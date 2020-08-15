@@ -1,7 +1,7 @@
 #include"leetcode.h"
 
-string Solution::removeOuterParentheses(string S) {
-	string reStr;
+std::string Solution::removeOuterParentheses(std::string S) {
+	std::string reStr;
 	char x;
 	int flag = -1;
 	for (size_t i = 1; i < S.size(); i++)

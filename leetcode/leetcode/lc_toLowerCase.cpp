@@ -1,6 +1,6 @@
 #include "leetcode.h"
 
-string Solution::toLowerCase(string str) {
+std::string Solution::toLowerCase(std::string str) {
 	transform(str.begin(), str.end(), str.begin(), ::tolower);
 	return str;
 }
