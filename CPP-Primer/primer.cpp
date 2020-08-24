@@ -9,6 +9,11 @@ int main()
 	std::vector<int> inputVec = { 0,1,2,2,3 };
 	PRIMER* CPP = new PRIMER();
 	std::cout << CPP->duplicate(inputVec) << std::endl;
+	int dataArr[3] = { 1,23,3 };
+	std::cout << dataArr << std::endl;
+	std::cout << dataArr[0] << std::endl;
+	std::cout << &dataArr[1] << std::endl;
+	std::cout << dataArr[1] << std::endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
