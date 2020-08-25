@@ -18,6 +18,9 @@ int main()
 	char str2[] = "hello world";
 	const char* str3 = "hello world";
 	const char* str4 = "hello world";
+	MYTEMPLATE<int> my_template;
+	my_template.multi(1, 2);
+	my_template.max(1, 2);
 	return 0;
 }
 

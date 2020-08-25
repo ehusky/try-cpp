@@ -19,3 +19,14 @@ private:
 
 };
 
+template <typename T> class MYTEMPLATE {
+private:
+
+public:
+	T multi(T a, T b){
+		return a * b;
+	}
+	T max(T a, T b) {
+		return a > b ? a : b;
+	}
+};
