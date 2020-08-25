@@ -14,6 +14,11 @@ int main()
 	std::cout << dataArr[0] << std::endl;
 	std::cout << &dataArr[1] << std::endl;
 	std::cout << dataArr[1] << std::endl;
+	char str1[] = "hello world";
+	char str2[] = "hello world";
+	const char* str3 = "hello world";
+	const char* str4 = "hello world";
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
