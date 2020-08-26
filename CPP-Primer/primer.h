@@ -15,6 +15,7 @@ public:
 		std::cout << "PRIMER::Destructor!" << std::endl;
 	}
 	bool duplicate(std::vector<int> nums);
+	int fib(int n);
 private:
 
 };
