@@ -2,7 +2,9 @@
 
 #include <iostream>
 #include <vector>
-
+#include <iomanip>
+#include <algorithm> 
+#include <numeric>
 class PRIMER
 {
 public:
@@ -16,6 +18,8 @@ public:
 	}
 	bool duplicate(std::vector<int> nums);
 	int fib(int n);
+	int yerd();
+	int blocks();
 private:
 
 };
