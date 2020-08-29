@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <algorithm> 
 #include <numeric>
+#include <set>
 class PRIMER
 {
 public:
@@ -20,6 +21,10 @@ public:
 	int fib(int n);
 	int yerd();
 	int blocks();
+	int mt2();
+	int mt1();
+	int mt4();
+	int mtc1();
 private:
 
 };
