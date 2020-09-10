@@ -218,3 +218,16 @@ int PRIMER::mt4()
 	}
 	return 0;
 }
+
+void PRIMER::experiment() {
+	int n = 0x124;
+	double d = 1234;
+	std::cout.setf(std::ios::oct, std::ios::basefield);
+	std::cout << n << "," << d << "," << 0x124 << "," << 1234 << std::endl;
+	std::cout.setf(std::ios::showpoint);
+	std::cout << d << "," << 1234 << std::endl;
+	std::cout.unsetf(std::ios::showpoint);
+	std::cout.unsetf(std::ios::oct);
+	std::cout.setf(std::ios::oct, std::ios::basefield);  // set hex as the basefield
+	std::cout << 100 << '\n';
+}

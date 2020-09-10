@@ -25,6 +25,7 @@ public:
 	int mt1();
 	int mt4();
 	int mtc1();
+	void experiment();
 private:
 
 };
