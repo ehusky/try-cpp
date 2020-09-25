@@ -26,6 +26,7 @@ public:
 	int mt4();
 	int mtc1();
 	void experiment();
+	void autoptr();
 private:
 
 };

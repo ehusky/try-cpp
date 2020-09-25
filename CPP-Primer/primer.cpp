@@ -231,3 +231,18 @@ void PRIMER::experiment() {
 	std::cout.setf(std::ios::oct, std::ios::basefield);  // set hex as the basefield
 	std::cout << 100 << '\n';
 }
+
+void PRIMER::autoptr() {
+	int a = 10;
+	std::shared_ptr<int> ptra = std::make_shared<int>(a);
+	std::shared_ptr<int> ptra2(ptra);
+	std::cout << ptra.use_count() << std::endl;
+	std::cout << ptra2.use_count() << std::endl;
+	int b = 20;
+	int* pb = &a;
+	std::shared_ptr<int> ptrb = std::make_shared<int>(b);
+	ptra2 = ptrb;
+	pb = ptrb.get(); 
+	std::cout << ptra2.use_count() << std::endl;
+	std::cout << ptrb.use_count() << std::endl;
+}

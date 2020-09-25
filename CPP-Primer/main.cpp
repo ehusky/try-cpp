@@ -19,14 +19,14 @@ int main()
 	//my_template.multi(1, 2);
 	//my_template.max(1, 2);
 	//CPP->mtc1();
-	std::vector<int> nums;
-	for (int i = 0; i < 100; i++)
-	{
-		nums.push_back(i);
+	//std::vector<int> nums;
+	//for (int i = 0; i < 100; i++)
+	//{
+	//	nums.push_back(i);
 	//std::cout << nums.max_size() << std::endl;
 	//std::cout << nums.size() << std::endl;
-	std::cout << nums.capacity() << std::endl;
-	}
-	
+	//std::cout << nums.capacity() << std::endl;
+	//}
+	CPP->autoptr();
 	return 0;
 }
